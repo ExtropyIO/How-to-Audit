@@ -7,17 +7,14 @@ Token Code: https://vscode.blockscan.com/base/0xcde172dc5ffc46d228838446c57c1227
 
 ## Findings
 
-- [Boomer token audit](#boomer-token-audit)
-  - [Project Details](#project-details)
-  - [Findings](#findings)
-    - [\[HIGH\] Centralization risks](#high-centralization-risks)
-    - [\[MEDIUM\] `swapBack()` is useless if `buyTotalFees` or `sellTotalFees` are not set at a certain point in time](#medium-swapback-is-useless-if-buytotalfees-or-selltotalfees-are-not-set-at-a-certain-point-in-time)
-    - [\[MEDIUM\] Transferring ownership should be a two steps process](#medium-transferring-ownership-should-be-a-two-steps-process)
-    - [\[LOW\] `swapBack()` timing is predictable](#low-swapback-timing-is-predictable)
-    - [\[LOW\] Priviliges are not revoked for old owner when ownership is transferred](#lowpriviliges-are-not-revoked-for-old-owner-when-ownership-is-transferred)
-    - [\[MEDIUM\] Missing input validation in setNewFees()](#medium-missing-input-validation-in-setnewfees)
-    - [\[INFO\] Sandwich attack in `swapTokensForEth()`](#info-sandwich-attack-in-swaptokensforeth)
-    - [\[INFO\] Dead code](#info-dead-code)
+- [\[HIGH\] Centralization risks](#high-centralization-risks)
+- [\[MEDIUM\] `swapBack()` is useless if `buyTotalFees` or `sellTotalFees` are not set at a certain point in time](#medium-swapback-is-useless-if-buytotalfees-or-selltotalfees-are-not-set-at-a-certain-point-in-time)
+- [\[MEDIUM\] Transferring ownership should be a two steps process](#medium-transferring-ownership-should-be-a-two-steps-process)
+- [\[LOW\] `swapBack()` timing is predictable](#low-swapback-timing-is-predictable)
+- [\[LOW\] Priviliges are not revoked for old owner when ownership is transferred](#lowpriviliges-are-not-revoked-for-old-owner-when-ownership-is-transferred)
+- [\[MEDIUM\] Missing input validation in setNewFees()](#medium-missing-input-validation-in-setnewfees)
+- [\[INFO\] Sandwich attack in `swapTokensForEth()`](#info-sandwich-attack-in-swaptokensforeth)
+- [\[INFO\] Dead code](#info-dead-code)
 
 ### [HIGH] Centralization risks
 - **Location(s):** BOOMER.sol#1171-1176, BOOMER.sol#1168
