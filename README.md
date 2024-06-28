@@ -12,4 +12,4 @@
   - [Checklists](./chapters/Auditing/checklists.md)
   - [Finding template](./chapters/Auditing/template.md)
 - Audit Examples:
-  - [Boomer Token](./chapters/AuditExamples/BoomerToken.md) [WORK IN PROGRESS]
+  - [Boomer Token](./chapters/AuditExamples/BoomerToken.md)
